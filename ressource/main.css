@@ -30,9 +30,9 @@ a:hover {
     color : black;
   animation: color-animation 2s linear
 infinite;
-    --color-1: #DF8453;
-    --color-2: #3D8DAE;
-    --color-3: #E4A9A8;
+    --color-1: orange;
+    --color-2: aliceblue;
+    --color-3: firebrick;
     text-transform: uppercase;
 }
 
