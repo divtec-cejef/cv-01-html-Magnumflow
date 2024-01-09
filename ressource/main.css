@@ -35,6 +35,7 @@ infinite;
     --color-3: #E4A9A8;
     text-transform: uppercase;
 }
+
 @keyframes color-animation {
     0% {
         color: var(--color-1)
