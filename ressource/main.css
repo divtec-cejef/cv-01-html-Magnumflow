@@ -25,3 +25,14 @@ a {
 a:hover {
     color: magenta;
 }
+
+.Diego {
+    color : black;
+  animation: color-animation 2s linear
+infinite;
+}
+.Diego {
+    --color-1: #DF8453;
+    --color-2: #3D8DAE;
+    --color-3: #E4A9A8;
+}
