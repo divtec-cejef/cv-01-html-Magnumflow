@@ -7,7 +7,9 @@ html {
 * {
     box-sizing: border-box;
 }
-
+header {
+    margin: 2rem;
+}
 body {
     font-weight: 400;
     font-size: 1.2rem;
@@ -15,6 +17,13 @@ body {
     color: lightseagreen;
     background-color: white;
     margin: auto;
+}
+footer  {
+    margin: 1.25rem;
+}
+p {
+    font-size: 12px;
+    text-decoration: none;
 }
 
 img {
@@ -60,4 +69,13 @@ infinite;
         color: var(--color-1)
     }
 }
+#Ma_formation {
+    color: black;
+    border: 5px dotted black;
+}
+nav {
+ background-color: cyan;
+padding-bottom: 10px;
+    padding-top: 10px;
 
+}
