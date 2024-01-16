@@ -14,8 +14,8 @@ body {
     font-weight: 400;
     font-size: 1.2rem;
     line-height: 1.4;
-    color: lightseagreen;
-    background-color: white;
+    color: #152a69;
+    background-color: ghostwhite;
     margin: auto;
 }
 footer  {
@@ -74,8 +74,8 @@ infinite;
     border: 5px dotted black;
 }
 nav {
- background-color: cyan;
-padding-bottom: 10px;
+    background-color: cyan;
+    padding-bottom: 10px;
     padding-top: 10px;
-
+    margin-left: 11em;
 }
