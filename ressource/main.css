@@ -1,0 +1,63 @@
+
+
+html {
+    font-family: Arial,sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.4;
+    color: lightseagreen;
+    background-color: white;
+    margin: auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
+
+a {
+    color: blueviolet;
+    text-decoration: none;
+}
+
+a:hover {
+    color: magenta;
+    border-style:hidden hidden hidden solid;
+    border-color: aqua;
+}
+
+.Diego {
+    color : black;
+  animation: color-animation 2s linear
+infinite;
+    --color-1: #20B2AAFF;
+    --color-2: #06f677;
+    --color-3: #B22222FF;
+    text-transform: uppercase;
+}
+
+@keyframes color-animation {
+    0% {
+        color: var(--color-1)
+    }
+    33% {
+        color: var(--color-2)
+    }
+
+    66% {
+        color: var(--color-3)
+    }
+
+    100% {
+        color: var(--color-1)
+    }
+}
+
