@@ -28,10 +28,9 @@ p {
 }
 
 img {
+    display: block;
     max-width: 100%;
-    height: auto;
-    width: auto;
-    margin-left: 50%;
+    margin: auto;
 }
 
 a {
@@ -81,3 +80,14 @@ nav {
     padding-top: 10px;
     margin-left: 11em;
 }
+/*@font-face {
+    font-display: swap;
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/arimo-v29-latin-regular.woff2') format('woff2');
+}*/
+.Background {
+    box-shadow: 10px 5px 5px blue;
+}
+
