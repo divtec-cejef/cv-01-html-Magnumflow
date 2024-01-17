@@ -92,7 +92,11 @@ nav {
     background-image: url("ressource/imagepacman.jpg");
     background-repeat: no-repeat;
     background-color: ghostwhite;
-    background-position: bottom;
-    width: 200px;
+    background-position-x: right;
+    background-position-y: bottom;
+    width: 700px;
 }
-
+.icon {
+    margin-left: 50%;
+    width: 50px;
+}
