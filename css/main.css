@@ -25,6 +25,9 @@ footer  {
 p {
     font-size: 1.1em;
     text-decoration: none;
+    margin-left: 30%;
+    margin-right: 25%;
+    padding: 10px 10px 10px 10px;
 }
 
 img {
@@ -45,6 +48,7 @@ a:hover {
 }
 
 .diego {
+    margin-left: 30%;
     color : black;
   animation: color-animation 2s linear
 infinite;
@@ -73,12 +77,11 @@ infinite;
 #ma_formation {
     color: black;
     border: 5px dotted black;
+    padding-left: 32%;
 }
 nav {
-    background-color: cyan;
     padding-bottom: 10px;
     padding-top: 10px;
-    margin-left: 11em;
 }
 /*@font-face {
     font-display: swap;
@@ -87,7 +90,7 @@ nav {
     font-weight: 400;
     src: url('../fonts/arimo-v29-latin-regular.woff2') format('woff2');
 }*/
-.Background {
+.background {
     box-shadow: 10px 5px 5px blue;
     background-image: url("ressource/imagepacman.jpg");
     background-repeat: no-repeat;
@@ -96,7 +99,16 @@ nav {
     background-position-y: bottom;
     width: 700px;
 }
-.icon {
-    margin-left: 50%;
-    width: 50px;
+#experience {
+margin-left: 32%;
+}
+
+li {
+    margin-left: 30%;
+    margin-right: 25%;
+}
+.footpa {
+    font-size: 0.7em;
+    margin-bottom: 1px;
+    padding-bottom: 1px;
 }
