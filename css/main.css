@@ -5,6 +5,11 @@ html {
     width: 900px;
     margin-left: 20%;
 }
+@font-face {
+    font-family: Grap_frut;
+    src: url("/ressource/GrapeNuts-Regular.ttf") format('ttf');
+    font-weight: bold;
+}
 
 * {
     box-sizing: border-box;
@@ -23,12 +28,15 @@ body {
 footer  {
     margin: 1.25rem;
 }
+h3  {
+    text-align: center;
+}
 p {
     font-size: 1.1em;
     text-decoration: none;
     text-align: center;
     padding: 10px 6em 10px 6em;
-    color: #37880f;
+    color: #000000;
 }
 
 img {
@@ -84,16 +92,10 @@ nav {
     padding-bottom: 10px;
     padding-top: 10px;
 }
-/*@font-face {
-    font-display: swap;
-    font-family: 'Arimo';
-    font-style: normal;
-    font-weight: 400;
-    src: url('../fonts/arimo-v29-latin-regular.woff2') format('woff2');
-}*/
+
 .background {
     box-shadow: 10px 5px 5px blue;
-    background-image: url("ressource/imagepacman.jpg");
+    background-image: url("ressource/giphy.gif");
     background-repeat: no-repeat;
     background-color: ghostwhite;
     background-position-x: right;
@@ -107,10 +109,13 @@ nav {
 li {
     margin-left: 40%;
     margin-right: 25%;
-    color: #37880f;
+    color: #000000;
 }
 .footpa {
+    font-family: Grap_frut, sans-serif;
     font-size: 0.7em;
     margin-bottom: 1px;
-    padding-bottom: 1px;
+    padding-bottom: 1px;.
+
 }
+
